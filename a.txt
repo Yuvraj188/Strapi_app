@@ -1,0 +1,55 @@
+Available commands in your project:
+
+  npm run develop
+  Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+
+  npm run start
+  Start Strapi without watch mode.
+
+  npm run build
+  Build Strapi admin panel.
+
+  npm run strapi
+  Display all available commands.
+
+You can start by doing:
+
+  cd C:\Users\Yuvraj Singh Rathore\Desktop\strapi\sampleapp
+  npm run develop
+
+Running your Strapi application.
+
+> sampleapp@0.1.0 develop
+> strapi develop
+
+⠋ Building build context
+⠙ Building build context[INFO] Including the following ENV variables as part of the JS bundle:
+    - ADMIN_PATH
+    - STRAPI_ADMIN_BACKEND_URL
+    - STRAPI_TELEMETRY_DISABLED
+✔ Building build context (178ms)
+✔ Creating admin (17850ms)
+⠼ Loading Strapi[2024-04-30 21:10:14.691] info: The Users & Permissions plugin automatically generated a jwt secret and stored it in .env under the name JWT_SECRET.
+✔ Loading Strapi (1996ms)
+✔ Generating types (503ms)
+
+ Project information
+
+┌────────────────────┬──────────────────────────────────────────────────┐
+│ Time               │ Tue Apr 30 2024 21:10:15 GMT+0530 (India Standa… │
+│ Launched in        │ 2514 ms                                          │
+│ Environment        │ development                                      │
+│ Process PID        │ 4120                                             │
+│ Version            │ 4.24.0 (node v20.12.2)                           │
+│ Edition            │ Community                                        │
+│ Database           │ sqlite                                           │
+└────────────────────┴──────────────────────────────────────────────────┘
+
+ Actions available
+
+One more thing...
+Create your first administrator 💻 by going to the administration panel at:
+
+┌─────────────────────────────┐
+│ http://localhost:1337/admin │
+└─────────────────────────────┘
