@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Rollnumber": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "Passed": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
